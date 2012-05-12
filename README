@@ -12,3 +12,7 @@ Notes:
      interface.
   4) To use the push switch for reset, you must solder a jumper from the
      SWITCH pad to one of the RESET pads.
+  5) The pullup for MCLR/RESET was omitted (in case you connected the switch
+     that does have a pullup), but.. the pad with V+ nearby one of the RESET
+     pads was misplaced (swapped with V- actually .. so V+ could be near the
+     supply pads).
