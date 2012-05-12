@@ -1,0 +1,12 @@
+Breakout board for PIC18F14K50 (or PIC18LF14K50, PIC18F13K50 PIC18LF13K50).
+Designed to fit into an Altoids Smalls tin
+
+Issues:
+
+  1) If you power the PIC with 5V, leave off the 3.3V regulator.  It will
+     fight with the internal 3.3V regulator in the PIC (F version, not LF)
+  2) You must solder a jumper from 3.3V or 5V to +V to power the PIC from
+     the USB port.
+  3) The USB D+ and D- lines are broken with R3 and R4, add jumpers to
+     connect the data lines to the PIC.  D+/D- are shared with the PICKIT
+     interface.

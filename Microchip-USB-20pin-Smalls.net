@@ -1,0 +1,371 @@
+# EESchema Netlist Version 1.1 created  5/11/2012 4:38:40 PM
+(
+ ( /4FAD5842 ROW_HOLES_15  P6 CONN_15 {Lib=CONN_15}
+  (    1 /V- )
+  (    2 /~RESET~ )
+  (    3 /RC7 )
+  (    4 /RC6 )
+  (    5 /RC5 )
+  (    6 /RC4 )
+  (    7 /RC3 )
+  (    8 /RC2 )
+  (    9 /RC1 )
+  (   10 /RC0 )
+  (   11 /RB7 )
+  (   12 /RB6 )
+  (   13 /RB5 )
+  (   14 /RB4 )
+  (   15 /V+ )
+ )
+ ( /4FAD46EE ROW_HOLES_15  P5 CONN_15 {Lib=CONN_15}
+  (    1 /V- )
+  (    2 /~RESET~ )
+  (    3 /RC7 )
+  (    4 /RC6 )
+  (    5 /RC5 )
+  (    6 /RC4 )
+  (    7 /RC3 )
+  (    8 /RC2 )
+  (    9 /RC1 )
+  (   10 /RC0 )
+  (   11 /RB7 )
+  (   12 /RB6 )
+  (   13 /RB5 )
+  (   14 /RB4 )
+  (   15 /V+ )
+ )
+ ( /4FA60443 ROW_HOLES_1  P12 AUX {Lib=CONN_1}
+  (    1 /AUX )
+ )
+ ( /4FA39881 SMD1608-NP  C6 220nF {Lib=CAP}
+  (    1 /V- )
+  (    2 /REG_3V3 )
+ )
+ ( /4FA336EB ROW_HOLES_1  P2 SWITCH {Lib=CONN_1}
+  (    1 /SWITCH )
+ )
+ ( /4FA29BBF SMD0603-NP  R1 10K {Lib=R}
+  (    1 /V+ )
+  (    2 /SWITCH )
+ )
+ ( /4FA2092D PIC-20pin-SOIC-7.5mm  IC1 PIC18(L)F14K50 {Lib=PIC18F14K50}
+  (  RA0 /ICSPDAT )
+  (  RA1 /ICSPCLK )
+  (  RA2 /REG_3V3 )
+  (  RA3 /~RESET~ )
+  (  RA4 /XTAL2 )
+  (  RA5 /XTAL1 )
+  (  RB4 /RB4 )
+  (  RB5 /RB5 )
+  (  RB6 /RB6 )
+  (  RB7 /RB7 )
+  (  RC0 /RC0 )
+  (  RC1 /RC1 )
+  (  RC2 /RC2 )
+  (  RC3 /RC3 )
+  (  RC4 /RC4 )
+  (  RC5 /RC5 )
+  (  RC6 /RC6 )
+  (  RC7 /RC7 )
+  (  VDD /V+ )
+  (  VSS /V- )
+ )
+ ( /4FA0F90F SOT-23-5  U1 MCP1801T {Lib=MCP1801T-3302I-OT}
+  (   NC ? )
+  (  Vin /V_USB_POWER )
+  ( Vout /REG_3V3 )
+  (  Vss /V- )
+  ( ~SHD /V_USB_POWER )
+ )
+ ( /4FA0F84A SMD0603-NP  R3 0R {Lib=R}
+  (    1 /D+ )
+  (    2 /ICSPDAT )
+ )
+ ( /4FA0F83F SMD0603-NP  R4 0R {Lib=R}
+  (    1 /D- )
+  (    2 /ICSPCLK )
+ )
+ ( /4FA04DB5 ROW_HOLES_1  P9 REG_3V3 {Lib=CONN_1}
+  (    1 /REG_3V3 )
+ )
+ ( /4FA04CF0 $noname  F1 BEAD {Lib=BEAD}
+  (    1 /V_USB_RAW )
+  (    2 /V_USB_POWER )
+ )
+ ( /4FA04CBA ROW_HOLES_1  P3 USB_5V {Lib=CONN_1}
+  (    1 /V_USB_POWER )
+ )
+ ( /4FA04C5F $noname  J1 154-15320-E {Lib=JACK_USB-B}
+  (    1 /V_USB_RAW )
+  (    2 /D+ )
+  (    3 /D- )
+  (    4 ? )
+  (    5 /V- )
+ )
+ ( /4F9DF030 $noname  SW1 SKQGADE010 {Lib=PUSH_SWITCH}
+  (    1 /SWITCH )
+  (    2 /V- )
+ )
+ ( /4F9DEFFA SMD1608-NP  C4 1µF {Lib=CAP}
+  (    1 /V- )
+  (    2 /V_USB_POWER )
+ )
+ ( /4F9DEFEF SMD1608-NP  C5 1µF {Lib=CAP}
+  (    1 /V- )
+  (    2 /REG_3V3 )
+ )
+ ( /4F9DEF72 SMD1608-NP  C2 22pF {Lib=CAP}
+  (    1 /XTAL2 )
+  (    2 /V- )
+ )
+ ( /4F9DEF70 SMD1608-NP  C1 22pF {Lib=CAP}
+  (    1 /XTAL1 )
+  (    2 /V- )
+ )
+ ( /4F9DEED4 SMD1608-NP  C3 100nF {Lib=CAP}
+  (    1 /V- )
+  (    2 /V+ )
+ )
+ ( /4F9DEE36 $noname  Y1 12MHz {Lib=CRYSTAL_SMALL}
+  (    1 /XTAL1 )
+  (    2 /XTAL2 )
+ )
+ ( /4F9DE7BA ROW_HOLES_6  P1 CONN_6 {Lib=CONN_6}
+  (    1 /~RESET~ )
+  (    2 /V+ )
+  (    3 /V- )
+  (    4 /ICSPDAT )
+  (    5 /ICSPCLK )
+  (    6 /AUX )
+ )
+ ( /4F9DE64E $noname  MNT4 MOUNT {Lib=MOUNT}
+  (    M ? )
+ )
+ ( /4F9DE64C $noname  MNT3 MOUNT {Lib=MOUNT}
+  (    M ? )
+ )
+ ( /4F9DE64B $noname  MNT2 MOUNT {Lib=MOUNT}
+  (    M ? )
+ )
+ ( /4F9DE649 $noname  MNT1 MOUNT {Lib=MOUNT}
+  (    M ? )
+ )
+ ( /4F9DE103 $noname  BRD1 BOARD {Lib=BOARD}
+ )
+)
+*
+{ Allowed footprints by component:
+$component P6
+ ROW_HOLES*
+$endlist
+$component P5
+ ROW_HOLES*
+$endlist
+$component P12
+ ROW_HOLES*
+$endlist
+$component C6
+ C-*
+ SMD*NP
+$endlist
+$component P2
+ ROW_HOLES*
+$endlist
+$component R1
+ R-*
+ SMD*NP
+$endlist
+$component IC1
+ PIC-20pin*
+$endlist
+$component U1
+ MCP1801T*
+$endlist
+$component R3
+ R-*
+ SMD*NP
+$endlist
+$component R4
+ R-*
+ SMD*NP
+$endlist
+$component P9
+ ROW_HOLES*
+$endlist
+$component F1
+ SMD*
+ R-*
+$endlist
+$component P3
+ ROW_HOLES*
+$endlist
+$component J1
+ JACK_USB*
+$endlist
+$component SW1
+ SW*
+$endlist
+$component C4
+ C-*
+ SMD*NP
+$endlist
+$component C5
+ C-*
+ SMD*NP
+$endlist
+$component C2
+ C-*
+ SMD*NP
+$endlist
+$component C1
+ C-*
+ SMD*NP
+$endlist
+$component C3
+ C-*
+ SMD*NP
+$endlist
+$component Y1
+ CRYSTAL*
+$endlist
+$component P1
+ ROW_HOLES*
+$endlist
+$component MNT4
+ MOUNT*
+$endlist
+$component MNT3
+ MOUNT*
+$endlist
+$component MNT2
+ MOUNT*
+$endlist
+$component MNT1
+ MOUNT*
+$endlist
+$component BRD1
+ BOARD*
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 1 "/V+" "V+"
+ P6 15
+ IC1 VDD
+ P1 2
+ C3 2
+ P5 15
+ R1 1
+Net 3 "/V-" "V-"
+ C2 2
+ SW1 2
+ C1 2
+ J1 5
+ U1 Vss
+ P1 3
+ C5 1
+ C3 1
+ C4 1
+ P6 1
+ P5 1
+ C6 1
+ IC1 VSS
+Net 4 "/RB4" "RB4"
+ IC1 RB4
+ P6 14
+ P5 14
+Net 5 "/RB5" "RB5"
+ P6 13
+ P5 13
+ IC1 RB5
+Net 6 "/RB6" "RB6"
+ IC1 RB6
+ P6 12
+ P5 12
+Net 7 "/RB7" "RB7"
+ IC1 RB7
+ P6 11
+ P5 11
+Net 8 "/RC0" "RC0"
+ P6 10
+ P5 10
+ IC1 RC0
+Net 9 "/RC2" "RC2"
+ P6 8
+ P5 8
+ IC1 RC2
+Net 10 "/RC1" "RC1"
+ P6 9
+ P5 9
+ IC1 RC1
+Net 12 "/RC7" "RC7"
+ P6 3
+ IC1 RC7
+ P5 3
+Net 13 "/RC6" "RC6"
+ P6 4
+ P5 4
+ IC1 RC6
+Net 14 "/RC4" "RC4"
+ P5 6
+ IC1 RC4
+ P6 6
+Net 15 "/~RESET~" "~RESET~"
+ P1 1
+ P6 2
+ IC1 RA3
+ P5 2
+Net 16 "/ICSPCLK" "ICSPCLK"
+ R4 2
+ IC1 RA1
+ P1 5
+Net 17 "/ICSPDAT" "ICSPDAT"
+ R3 2
+ P1 4
+ IC1 RA0
+Net 18 "/XTAL2" "XTAL2"
+ Y1 2
+ C2 1
+ IC1 RA4
+Net 19 "/AUX" "AUX"
+ P1 6
+ P12 1
+Net 24 "/V_USB_RAW" "V_USB_RAW"
+ F1 1
+ J1 1
+Net 25 "/RC3" "RC3"
+ IC1 RC3
+ P6 7
+ P5 7
+Net 26 "/D+" "D+"
+ R3 1
+ J1 2
+Net 27 "/D-" "D-"
+ J1 3
+ R4 1
+Net 28 "/XTAL1" "XTAL1"
+ C1 1
+ IC1 RA5
+ Y1 1
+Net 29 "/REG_3V3" "REG_3V3"
+ C6 2
+ C5 2
+ U1 Vout
+ P9 1
+ IC1 RA2
+Net 30 "/V_USB_POWER" "V_USB_POWER"
+ C4 2
+ U1 ~SHD
+ U1 Vin
+ F1 2
+ P3 1
+Net 31 "/RC5" "RC5"
+ P5 5
+ P6 5
+ IC1 RC5
+Net 32 "/SWITCH" "SWITCH"
+ P2 1
+ R1 2
+ SW1 1
+}
+#End

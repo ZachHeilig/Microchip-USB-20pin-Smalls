@@ -1,0 +1,637 @@
+EESchema Schematic File Version 2  date 5/11/2012 5:29:11 PM
+LIBS:zach_components
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:Microchip-USB-20pin-Smalls-cache
+EELAYER 25  0
+EELAYER END
+$Descr A4 11700 8267
+encoding utf-8
+Sheet 1 1
+Title ""
+Date "11 may 2012"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Label 4050 4950 0    60   ~ 0
+REG_3V3
+Connection ~ 4150 4950
+Wire Wire Line
+	4050 4950 5200 4950
+Wire Wire Line
+	3950 5550 4150 5550
+Wire Wire Line
+	4150 5550 4150 5450
+Wire Wire Line
+	9050 5400 8300 5400
+Wire Wire Line
+	9050 5800 8300 5800
+Wire Wire Line
+	9050 5700 8300 5700
+Wire Wire Line
+	9050 5500 8300 5500
+Wire Wire Line
+	9050 5600 8300 5600
+Wire Wire Line
+	9050 4900 8300 4900
+Wire Wire Line
+	9050 5200 8300 5200
+Wire Wire Line
+	9050 6000 8300 6000
+Wire Wire Line
+	9050 6100 8300 6100
+Wire Wire Line
+	9050 5900 8300 5900
+Wire Wire Line
+	9050 5100 8300 5100
+Wire Wire Line
+	9050 6200 8300 6200
+Wire Wire Line
+	9050 5000 8300 5000
+Connection ~ 8950 4900
+Wire Wire Line
+	8300 6300 9050 6300
+Wire Wire Line
+	5750 1900 5050 1900
+Wire Wire Line
+	4400 1350 4400 1150
+Connection ~ 8050 2450
+Wire Wire Line
+	8050 2450 8050 2400
+Wire Wire Line
+	6800 5450 7250 5450
+Wire Wire Line
+	6800 5250 7250 5250
+Wire Wire Line
+	6800 5050 7250 5050
+Wire Wire Line
+	6800 4850 7250 4850
+Wire Wire Line
+	4450 5550 5200 5550
+Wire Wire Line
+	4450 5350 5200 5350
+Wire Wire Line
+	4450 5150 5200 5150
+Wire Wire Line
+	4450 4750 5200 4750
+Connection ~ 7800 2450
+Wire Wire Line
+	7800 2450 7800 2100
+Wire Wire Line
+	7800 2100 7650 2100
+Wire Wire Line
+	5700 4500 5550 4500
+Wire Wire Line
+	5550 4500 5550 4400
+Wire Wire Line
+	10000 2450 9500 2450
+Wire Wire Line
+	5250 2650 5500 2650
+Wire Wire Line
+	6000 2650 6800 2650
+Wire Wire Line
+	2350 1450 2700 1450
+Wire Wire Line
+	2700 1350 2350 1350
+Wire Wire Line
+	2700 1050 2350 1050
+Wire Wire Line
+	4000 1900 4550 1900
+Connection ~ 9800 2450
+Wire Wire Line
+	9800 2500 9800 2450
+Connection ~ 8250 2450
+Wire Wire Line
+	9800 2900 9800 3100
+Connection ~ 3150 3550
+Wire Wire Line
+	3150 3900 3150 3350
+Wire Wire Line
+	3550 3550 3650 3550
+Wire Wire Line
+	3650 2950 3650 2800
+Wire Wire Line
+	3150 2950 3150 2800
+Wire Wire Line
+	3250 3550 3150 3550
+Wire Wire Line
+	3150 2800 3650 2800
+Wire Wire Line
+	3650 3900 3650 3350
+Connection ~ 3650 3550
+Wire Wire Line
+	8250 3100 8250 2900
+Wire Wire Line
+	9000 2950 9000 3100
+Connection ~ 9000 3100
+Wire Wire Line
+	2700 1150 2350 1150
+Wire Wire Line
+	2700 1250 2350 1250
+Wire Wire Line
+	5250 2450 6000 2450
+Wire Wire Line
+	6000 2550 6800 2550
+Wire Wire Line
+	5250 2550 5500 2550
+Wire Wire Line
+	8250 2500 8250 2350
+Wire Wire Line
+	8250 2350 8450 2350
+Wire Wire Line
+	6000 6050 6000 6200
+Wire Wire Line
+	6000 6200 6200 6200
+Wire Wire Line
+	6000 4350 6000 3850
+Wire Wire Line
+	6000 3850 5550 3850
+Wire Wire Line
+	5550 3850 5550 4000
+Wire Wire Line
+	6400 2450 8450 2450
+Wire Wire Line
+	5250 2850 7650 2850
+Wire Wire Line
+	7650 2850 7650 3100
+Wire Wire Line
+	7650 3100 9800 3100
+Connection ~ 8250 3100
+Wire Wire Line
+	4450 4850 5200 4850
+Wire Wire Line
+	4450 5050 5200 5050
+Wire Wire Line
+	4450 5250 5200 5250
+Wire Wire Line
+	4450 5450 5200 5450
+Wire Wire Line
+	4450 5650 5200 5650
+Wire Wire Line
+	6800 4950 7250 4950
+Wire Wire Line
+	7250 5150 6800 5150
+Wire Wire Line
+	6800 5350 7250 5350
+Wire Wire Line
+	6800 5550 7250 5550
+Connection ~ 4400 1900
+Wire Wire Line
+	9050 5300 8300 5300
+Wire Wire Line
+	8950 4900 8950 4700
+Wire Wire Line
+	4400 1850 4400 1900
+Wire Wire Line
+	4400 1150 4250 1150
+Wire Wire Line
+	4150 4950 4150 5050
+Wire Wire Line
+	2350 950  2700 950 
+Wire Wire Line
+	8950 6300 8950 6500
+Connection ~ 8950 6300
+Wire Wire Line
+	8950 6500 8800 6500
+$Comp
+L CONN_15 P6
+U 1 1 4FAD5842
+P 7950 5600
+F 0 "P6" V 7900 5600 60  0000 C CNN
+F 1 "CONN_15" V 8000 5600 60  0000 C CNN
+F 2 "ROW_HOLES_15" V 7800 5800 60  0001 C CNN
+	1    7950 5600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L CONN_15 P5
+U 1 1 4FAD46EE
+P 9400 5600
+F 0 "P5" V 9350 5600 60  0000 C CNN
+F 1 "CONN_15" V 9450 5600 60  0000 C CNN
+F 2 "ROW_HOLES_15" V 9250 5800 60  0001 C CNN
+	1    9400 5600
+	1    0    0    -1  
+$EndComp
+Text Label 8750 5500 0    60   ~ 0
+RC3
+Text Label 7250 5150 2    60   ~ 0
+RC3
+$Comp
+L CONN_1 P12
+U 1 1 4FA60443
+P 2200 1450
+F 0 "P12" H 2280 1450 40  0000 L CNN
+F 1 "AUX" H 2200 1505 30  0001 C CNN
+F 2 "ROW_HOLES_1" H 2180 1350 60  0001 C CNN
+	1    2200 1450
+	-1   0    0    1   
+$EndComp
+Text Label 3950 5550 0    60   ~ 0
+V-
+$Comp
+L CAP C6
+U 1 1 4FA39881
+P 4150 5250
+F 0 "C6" H 4200 5350 50  0000 L CNN
+F 1 "220nF" H 4200 5150 50  0000 L CNN
+F 2 "SMD1608-NP" H 4150 5250 60  0001 C CNN
+	1    4150 5250
+	-1   0    0    1   
+$EndComp
+Text Label 5300 2450 0    60   ~ 0
+V_USB_RAW
+Text Label 5300 2650 0    60   ~ 0
+D-
+Text Label 5300 2550 0    60   ~ 0
+D+
+$Comp
+L PWR_FLAG #FLG01
+U 1 1 4FA37ECA
+P 8950 4700
+F 0 "#FLG01" H 8950 4795 30  0001 C CNN
+F 1 "PWR_FLAG" H 8950 4880 30  0000 C CNN
+	1    8950 4700
+	1    0    0    -1  
+$EndComp
+Text Label 8750 6000 0    60   ~ 0
+RB6
+Text Label 8750 6100 0    60   ~ 0
+RB5
+Text Label 8750 6200 0    60   ~ 0
+RB4
+Text Label 8750 5600 0    60   ~ 0
+RC2
+Text Label 7250 5050 2    60   ~ 0
+RC2
+Text Label 8750 5700 0    60   ~ 0
+RC1
+Text Label 7250 4950 2    60   ~ 0
+RC1
+Text Label 8750 5800 0    60   ~ 0
+RC0
+Text Label 7250 4850 2    60   ~ 0
+RC0
+Text Label 8750 5100 0    60   ~ 0
+RC7
+Text Label 8750 5900 0    60   ~ 0
+RB7
+Text Label 7250 5550 2    60   ~ 0
+RC7
+Text Label 8750 5200 0    60   ~ 0
+RC6
+Text Label 7250 5450 2    60   ~ 0
+RC6
+Text Label 8750 5400 0    60   ~ 0
+RC4
+Text Label 7250 5250 2    60   ~ 0
+RC4
+Text Label 8750 5300 0    60   ~ 0
+RC5
+Text Label 7250 5350 2    60   ~ 0
+RC5
+Text Label 8750 5000 0    50   ~ 0
+~RESET~
+Text Label 8750 4900 0    60   ~ 0
+V-
+Text Label 8750 6300 0    60   ~ 0
+V+
+$Comp
+L CONN_1 P2
+U 1 1 4FA336EB
+P 3850 1900
+F 0 "P2" H 3930 1900 40  0000 L CNN
+F 1 "SWITCH" H 3850 1955 30  0001 C CNN
+F 2 "ROW_HOLES_1" H 3830 1800 60  0001 C CNN
+	1    3850 1900
+	-1   0    0    1   
+$EndComp
+Text Label 4000 1900 0    60   ~ 0
+SWITCH
+Text Label 4250 1150 0    60   ~ 0
+V+
+$Comp
+L R R1
+U 1 1 4FA29BBF
+P 4400 1600
+F 0 "R1" V 4480 1600 45  0000 C CNN
+F 1 "10K" V 4400 1600 45  0000 C CNN
+F 2 "SMD0603-NP" V 4300 1600 60  0001 C CNN
+	1    4400 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #FLG02
+U 1 1 4FA20DC6
+P 8050 2400
+F 0 "#FLG02" H 8050 2495 30  0001 C CNN
+F 1 "PWR_FLAG" H 8050 2580 30  0000 C CNN
+	1    8050 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #FLG03
+U 1 1 4FA20DB4
+P 8800 6500
+F 0 "#FLG03" H 8800 6595 30  0001 C CNN
+F 1 "PWR_FLAG" H 8800 6680 30  0000 C CNN
+	1    8800 6500
+	0    -1   -1   0   
+$EndComp
+NoConn ~ 5250 2750
+Text Label 4450 5650 0    60   ~ 0
+RB7
+Text Label 4450 5550 0    60   ~ 0
+RB6
+Text Label 4450 5450 0    60   ~ 0
+RB5
+Text Label 4450 5350 0    60   ~ 0
+RB4
+Text Label 7000 2450 0    60   ~ 0
+V_USB_POWER
+Text Label 5700 4500 2    60   ~ 0
+V-
+$Comp
+L PIC18F14K50 IC1
+U 1 1 4FA2092D
+P 6000 5200
+F 0 "IC1" H 6150 5800 60  0000 C CNN
+F 1 "PIC18(L)F14K50" V 6000 5250 60  0000 C CNN
+F 2 "PIC-20pin-SOIC-7.5mm" V 5900 5250 60  0001 C CNN
+	1    6000 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L MCP1801T-3302I-OT U1
+U 1 1 4FA0F90F
+P 9000 2450
+F 0 "U1" H 9100 2200 60  0000 C CNN
+F 1 "MCP1801T" H 8950 2700 60  0000 C CNN
+F 2 "SOT-23-5" H 9000 2700 60  0001 C CNN
+	1    9000 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R3
+U 1 1 4FA0F84A
+P 5750 2550
+F 0 "R3" V 5830 2550 45  0000 C CNN
+F 1 "0R" V 5750 2550 45  0000 C CNN
+F 2 "SMD0603-NP" V 5650 2550 60  0001 C CNN
+	1    5750 2550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R4
+U 1 1 4FA0F83F
+P 5750 2650
+F 0 "R4" V 5830 2650 45  0000 C CNN
+F 1 "0R" V 5750 2650 45  0000 C CNN
+F 2 "SMD0603-NP" V 5650 2650 60  0001 C CNN
+	1    5750 2650
+	0    -1   -1   0   
+$EndComp
+Text Label 6800 2650 2    60   ~ 0
+ICSPCLK
+Text Label 6800 2550 2    60   ~ 0
+ICSPDAT
+Text Notes 5050 3100 0    60   ~ 0
+Datasheet claims no need for resistors\nor anything else on the D+/D- line.\nIncluded here as jumpers in case the\nUSB is only used for power, or a non-USB\nMicrocontroller is used.  Complying with\nsleep mode power and such is left to the\nfirmware.
+$Comp
+L CONN_1 P9
+U 1 1 4FA04DB5
+P 10150 2450
+F 0 "P9" H 10230 2450 40  0000 L CNN
+F 1 "REG_3V3" H 10150 2505 30  0001 C CNN
+F 2 "ROW_HOLES_1" H 10130 2350 60  0001 C CNN
+	1    10150 2450
+	1    0    0    -1  
+$EndComp
+Text Label 5450 2850 2    60   ~ 0
+V-
+$Comp
+L BEAD F1
+U 1 1 4FA04CF0
+P 6200 2450
+F 0 "F1" V 6270 2450 50  0000 C CNN
+F 1 "BEAD" V 6140 2460 50  0000 C CNN
+	1    6200 2450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_1 P3
+U 1 1 4FA04CBA
+P 7500 2100
+F 0 "P3" H 7580 2100 40  0000 L CNN
+F 1 "USB_5V" H 7500 2155 30  0001 C CNN
+F 2 "ROW_HOLES_1" H 7480 2000 60  0001 C CNN
+	1    7500 2100
+	-1   0    0    1   
+$EndComp
+$Comp
+L JACK_USB-B J1
+U 1 1 4FA04C5F
+P 5050 2650
+F 0 "J1" H 4925 2450 60  0000 C CNN
+F 1 "154-15320-E" V 5000 2650 60  0001 C CNN
+	1    5050 2650
+	1    0    0    -1  
+$EndComp
+Text Label 10000 2450 2    60   ~ 0
+REG_3V3
+Text Label 2350 1450 0    60   ~ 0
+AUX
+Text Label 2350 1350 0    60   ~ 0
+ICSPCLK
+Text Label 2350 1250 0    60   ~ 0
+ICSPDAT
+Text Label 2350 1150 0    60   ~ 0
+V-
+Text Label 2350 1050 0    60   ~ 0
+V+
+Text Label 2350 950  0    60   ~ 0
+~RESET~
+Text Label 5750 1900 2    60   ~ 0
+V-
+$Comp
+L PUSH_SWITCH SW1
+U 1 1 4F9DF030
+P 4800 1900
+F 0 "SW1" H 4950 2010 50  0000 C CNN
+F 1 "SKQGADE010" H 4800 1820 50  0000 C CNN
+	1    4800 1900
+	1    0    0    -1  
+$EndComp
+Text Label 8800 3100 0    60   ~ 0
+V-
+$Comp
+L CAP C4
+U 1 1 4F9DEFFA
+P 8250 2700
+F 0 "C4" H 8300 2800 50  0000 L CNN
+F 1 "1µF" H 8300 2600 50  0000 L CNN
+F 2 "SMD1608-NP" H 8250 2700 60  0001 C CNN
+	1    8250 2700
+	-1   0    0    1   
+$EndComp
+$Comp
+L CAP C5
+U 1 1 4F9DEFEF
+P 9800 2700
+F 0 "C5" H 9850 2800 50  0000 L CNN
+F 1 "1µF" H 9850 2600 50  0000 L CNN
+F 2 "SMD1608-NP" H 9800 2700 60  0001 C CNN
+	1    9800 2700
+	-1   0    0    1   
+$EndComp
+Text Label 3650 3900 1    60   ~ 0
+XTAL2
+Text Label 3150 3900 1    60   ~ 0
+XTAL1
+Text Label 3350 2800 0    60   ~ 0
+V-
+$Comp
+L CAP C2
+U 1 1 4F9DEF72
+P 3650 3150
+F 0 "C2" H 3700 3250 50  0000 L CNN
+F 1 "22pF" H 3700 3050 50  0000 L CNN
+F 2 "SMD1608-NP" H 3650 3150 60  0001 C CNN
+	1    3650 3150
+	-1   0    0    1   
+$EndComp
+$Comp
+L CAP C1
+U 1 1 4F9DEF70
+P 3150 3150
+F 0 "C1" H 3200 3250 50  0000 L CNN
+F 1 "22pF" H 3200 3050 50  0000 L CNN
+F 2 "SMD1608-NP" H 3150 3150 60  0001 C CNN
+	1    3150 3150
+	-1   0    0    1   
+$EndComp
+Text Label 4450 5150 0    60   ~ 0
+XTAL2
+Text Label 4450 5250 0    60   ~ 0
+XTAL1
+Text Label 4450 4850 0    60   ~ 0
+ICSPCLK
+Text Label 4450 4750 0    60   ~ 0
+ICSPDAT
+Text Label 6200 6200 2    60   ~ 0
+V-
+Text Label 5700 3850 0    60   ~ 0
+V+
+Text Label 4450 5050 0    50   ~ 0
+~RESET~
+$Comp
+L CAP C3
+U 1 1 4F9DEED4
+P 5550 4200
+F 0 "C3" H 5600 4300 50  0000 L CNN
+F 1 "100nF" H 5600 4100 50  0000 L CNN
+F 2 "SMD1608-NP" H 5550 4200 60  0001 C CNN
+	1    5550 4200
+	-1   0    0    1   
+$EndComp
+$Comp
+L CRYSTAL_SMALL Y1
+U 1 1 4F9DEE36
+P 3400 3550
+F 0 "Y1" H 3400 3700 60  0000 C CNN
+F 1 "12MHz" H 3400 3385 60  0000 C CNN
+	1    3400 3550
+	1    0    0    -1  
+$EndComp
+Text Notes 750  3300 0    60   ~ 0
+USB Compatible with:\nPIC18(L)F13K50\nPIC18(L)F14K50\nOtherwise Compatible with:\nPIC16F631\nPIC16F677\nPIC16F685\nPIC16F687\nPIC16F689\nPIC16F690\nPIC16F720\nPIC16LF720\nPIC16F721\nPIC16LF721\nPIC16F785\nPIC16HV785\nPIC16F1507\nPIC16LF1507\nPIC16F1828\nPIC16LF1828\nPIC16F1829\nPIC16LF1829\nPIC18F13K22\nPIC18LF13K22\nPIC18F14K22\nPIC18LF14K22
+$Comp
+L CONN_6 P1
+U 1 1 4F9DE7BA
+P 3050 1200
+F 0 "P1" V 3000 1200 60  0000 C CNN
+F 1 "CONN_6" V 3100 1200 60  0000 C CNN
+F 2 "ROW_HOLES_6" V 3050 1200 60  0001 C CNN
+	1    3050 1200
+	1    0    0    -1  
+$EndComp
+Text Notes 750  3050 0    60   ~ 0
+Microchip Version
+$Comp
+L MOUNT MNT4
+U 1 1 4F9DE64E
+P 1250 1650
+F 0 "MNT4" H 1250 1550 60  0000 C CNN
+F 1 "MOUNT" H 1250 1750 60  0000 C CNN
+	1    1250 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L MOUNT MNT3
+U 1 1 4F9DE64C
+P 1250 1350
+F 0 "MNT3" H 1250 1250 60  0000 C CNN
+F 1 "MOUNT" H 1250 1450 60  0000 C CNN
+	1    1250 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L MOUNT MNT2
+U 1 1 4F9DE64B
+P 900 1650
+F 0 "MNT2" H 900 1550 60  0000 C CNN
+F 1 "MOUNT" H 900 1750 60  0000 C CNN
+	1    900  1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L MOUNT MNT1
+U 1 1 4F9DE649
+P 900 1350
+F 0 "MNT1" H 900 1250 60  0000 C CNN
+F 1 "MOUNT" H 900 1450 60  0000 C CNN
+	1    900  1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L BOARD BRD1
+U 1 1 4F9DE103
+P 1100 900
+F 0 "BRD1" H 1100 850 60  0000 C CNN
+F 1 "BOARD" H 1100 950 60  0000 C CNN
+	1    1100 900 
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

@@ -1,0 +1,199 @@
+Cmp-Mod V01 Created by CvPcb (2012-01-19 BZR 3256)-stable date = 5/11/2012 4:32:45 PM
+
+BeginCmp
+TimeStamp = /4F9DE103;
+Reference = BRD1;
+ValeurCmp = BOARD;
+IdModule  = BOARD_ALTOIDS_SMALL;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F9DEF70;
+Reference = C1;
+ValeurCmp = 22pF;
+IdModule  = SMD2012-NP;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F9DEF72;
+Reference = C2;
+ValeurCmp = 22pF;
+IdModule  = SMD2012-NP;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F9DEED4;
+Reference = C3;
+ValeurCmp = 100nF;
+IdModule  = SMD2012-NP;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F9DEFFA;
+Reference = C4;
+ValeurCmp = 1µF;
+IdModule  = SMD2012-NP;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F9DEFEF;
+Reference = C5;
+ValeurCmp = 1µF;
+IdModule  = SMD2012-NP;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FA39881;
+Reference = C6;
+ValeurCmp = 220nF;
+IdModule  = SMD2012-NP;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FA04CF0;
+Reference = F1;
+ValeurCmp = BEAD;
+IdModule  = SMD2012-NP;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FA2092D;
+Reference = IC1;
+ValeurCmp = PIC18(L)F14K50;
+IdModule  = PIC-20pin-SOIC-7.5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FA04C5F;
+Reference = J1;
+ValeurCmp = 154-15320-E;
+IdModule  = JACK_USB_MINI_B;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F9DE649;
+Reference = MNT1;
+ValeurCmp = MOUNT;
+IdModule  = MOUNT_HOLE;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F9DE64B;
+Reference = MNT2;
+ValeurCmp = MOUNT;
+IdModule  = MOUNT_HOLE;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F9DE64C;
+Reference = MNT3;
+ValeurCmp = MOUNT;
+IdModule  = MOUNT_HOLE;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F9DE64E;
+Reference = MNT4;
+ValeurCmp = MOUNT;
+IdModule  = MOUNT_HOLE;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F9DE7BA;
+Reference = P1;
+ValeurCmp = CONN_6;
+IdModule  = ROW_HOLES_6;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FA336EB;
+Reference = P2;
+ValeurCmp = SWITCH;
+IdModule  = ROW_HOLES_1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FA04CBA;
+Reference = P3;
+ValeurCmp = USB_5V;
+IdModule  = ROW_HOLES_1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FAD8549;
+Reference = P4;
+ValeurCmp = V_USB;
+IdModule  = ROW_HOLES_1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FAD46EE;
+Reference = P5;
+ValeurCmp = CONN_15;
+IdModule  = ROW_HOLES_15;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FAD5842;
+Reference = P6;
+ValeurCmp = CONN_15;
+IdModule  = ROW_HOLES_15;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FA04DB5;
+Reference = P9;
+ValeurCmp = REG_3V3;
+IdModule  = ROW_HOLES_1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FA60443;
+Reference = P12;
+ValeurCmp = AUX;
+IdModule  = ROW_HOLES_1;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FA29BBF;
+Reference = R1;
+ValeurCmp = 10K;
+IdModule  = SMD2012-NP;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FA0F84A;
+Reference = R3;
+ValeurCmp = 0R;
+IdModule  = SMD2012-NP;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FA0F83F;
+Reference = R4;
+ValeurCmp = 0R;
+IdModule  = SMD2012-NP;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F9DF030;
+Reference = SW1;
+ValeurCmp = SKQGADE010;
+IdModule  = SW-TACT-SKQGADE010;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FA0F90F;
+Reference = U1;
+ValeurCmp = MCP1801T;
+IdModule  = MCP1801T-SOT23-5;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F9DEE36;
+Reference = Y1;
+ValeurCmp = 12MHz;
+IdModule  = CRYSTAL-HC49-PTH-SMD;
+EndCmp
+
+EndListe
